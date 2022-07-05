@@ -447,8 +447,24 @@
 <script src="js/appear.js"></script>
 <script src="js/aos.js"></script>
 <script src="js/jquery.countTo.js"></script>
-<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-3939a877-7f62-422b-9a04-e48bc1844baa"></div>
+<!-- GetButton.io widget -->
+<script type="text/javascript">
+(function () {
+var options = {
+twitter: "jchiweda", // Twitter User ID
+whatsapp: "+263774369619", // WhatsApp number
+call_to_action: "Message us", // Call to action
+button_color: "#129BF4", // Color of button
+position: "right", // Position may be 'right' or 'left'
+order: "twitter,whatsapp", // Order of buttons
+};
+var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+})();
+</script>
+<!-- /GetButton.io widget -->
 <!-- main-js -->
 <script src="js/script.js"></script>
 
