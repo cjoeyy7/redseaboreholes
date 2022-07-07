@@ -10,7 +10,7 @@
 <!-- Stylesheets -->
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
-<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/logo.png" type="image/x-icon">
 
 </head>
 
@@ -23,43 +23,14 @@
     <!-- preloader -->
 
 
-    <!-- search-box-layout -->
-    <div class="wraper_flyout_search">
-        <div class="table">
-            <div class="table-cell">
-                <div class="flyout-search-layer"></div>
-                <div class="flyout-search-layer"></div>
-                <div class="flyout-search-layer"></div>
-                <div class="flyout-search-close">
-                    <span class="flyout-search-close-line"></span>
-                    <span class="flyout-search-close-line"></span>
-                </div>
-                <div class="flyout_search">
-                    <div class="flyout-search-title">
-                        <h4>Search</h4>
-                    </div>
-                    <div class="flyout-search-bar">
-                        <form role="search" method="get" action="#">
-                            <div class="form-row">
-                                <input type="search" placeholder="Type to search..." value="" name="s" required="">
-                                <button type="submit"><i class="fa fa-search"></i></button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- search-box-layout end -->
-
-
+   
     <!-- main header -->
     <header class="main-header style-four style-six style-nine">
        <div class="header-upper">
             <div class="container">
                 <div class="inner-container clearfix">
                     <div class="left-content pull-left">
-                        <figure class="logo-box"><a href="index.html"><img src="images/logo.png" alt=""></a></figure>
+                        <figure class="logo-box"><a href="index.html"><img src="images/logo.png" alt="MEDIA_OBJECT"></a></figure>
                     </div>
                     <div class="right-content pull-right">
                         <div class="info-box">
@@ -106,7 +77,7 @@
                         </div>
                         <div class="info-box pull-right clearfix">
                             <ul class="social-links">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.facebook.com/Redsea-boreholes-zw-104714385582686" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -229,7 +200,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                    <figure class="image clearfix wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms"><img src="images/resource/mission-1.png" alt=""></figure>
+                    <figure class="image clearfix wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms"><img src="images/resource/mission-1.png" alt="MEDIA_OBJECT"></figure>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div class="content-box">
@@ -271,7 +242,7 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 service-block">
                     <div class="service-block-one wow fadeInRight" data-wow-delay="1000ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="service.html"><img src="images/resource/actual-rig.jpeg" alt=""></a></figure>
+                            <figure class="image-box"><a href="service.html"><img src="images/resource/actual-rig.jpeg" alt="MEDIA_OBJECT"></a></figure>
                             <div class="content-box">
                                 <div class="icon-box"><i class="flaticon-support"></i></div>
                                 <h3><a href="service.html">Borehole Drilling</a></h3>
@@ -284,7 +255,7 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 service-block">
                     <div class="service-block-one wow fadeInRight" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="service.html"><img src="images/resource/water-pump.jpeg" alt=""></a></figure>
+                            <figure class="image-box"><a href="service.html"><img src="images/resource/water-pump.jpeg" alt="MEDIA_OBJECT"></a></figure>
                             <div class="content-box">
                                 <div class="icon-box"><i class="flaticon-oil"></i></div>
                                 <h3><a href="service.html">Pump Installations</a></h3>
@@ -333,12 +304,12 @@
                     <div class="project-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><img src="images/gallery/project-1.jpg" alt=""></figure>
+                                <figure class="image"><img src="images/gallery/project-1.jpg" alt="MEDIA_OBJECT"></figure>
                                 <a href="images/gallery/project-1.jpg" class="lightbox-image" data-fancybox='gallery'><i class="flaticon-add"></i></a>
                             </div>
                             <div class="lower-content">
                                 <div class="count-number">01</div>
-                                <h3><a href="case-single.html">Material Handling</a></h3>
+                                <h3><a href="gallery.html">Material Handling</a></h3>
                                 <div class="text">Material Handling & Industrial Robo cost-effective, lightweight, and reliable fluid rotary unions</div>
                             </div>
                         </div>
@@ -348,12 +319,12 @@
                     <div class="project-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><img src="images/gallery/project-2.jpg" alt=""></figure>
+                                <figure class="image"><img src="images/gallery/project-2.jpg" alt="MEDIA_OBJECT"></figure>
                                 <a href="images/gallery/project-2.jpg" class="lightbox-image" data-fancybox='gallery'><i class="flaticon-add"></i></a>
                             </div>
                             <div class="lower-content">
                                 <div class="count-number">02</div>
-                                <h3><a href="case-single.html">Industrial Robotics</a></h3>
+                                <h3><a href="gallery.html">Industrial Robotics</a></h3>
                                 <div class="text">Turn your visitors into customers with our team of experts. We'll analyze your website</div>
                             </div>
                         </div>
@@ -363,12 +334,12 @@
                     <div class="project-block-one wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><img src="images/gallery/project-3.jpg" alt=""></figure>
+                                <figure class="image"><img src="images/gallery/project-3.jpg" alt="MEDIA_OBJECT"></figure>
                                 <a href="images/gallery/project-3.jpg" class="lightbox-image" data-fancybox='gallery'><i class="flaticon-add"></i></a>
                             </div>
                             <div class="lower-content">
                                 <div class="count-number">03</div>
-                                <h3><a href="case-single.html">Chittagong Port</a></h3>
+                                <h3><a href="gallery.html">Chittagong Port</a></h3>
                                 <div class="text">Factory OS is revolutionizing home construction. We’ve combined pioneering technology</div>
                             </div>
                         </div>
@@ -378,12 +349,12 @@
                     <div class="project-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><img src="images/gallery/project-4.jpg" alt=""></figure>
+                                <figure class="image"><img src="images/gallery/project-4.jpg" alt="MEDIA_OBJECT"></figure>
                                 <a href="images/gallery/project-4.jpg" class="lightbox-image" data-fancybox='gallery'><i class="flaticon-add"></i></a>
                             </div>
                             <div class="lower-content">
                                 <div class="count-number">04</div>
-                                <h3><a href="case-single.html">Building construction</a></h3>
+                                <h3><a href="gallery.html">Building construction</a></h3>
                                 <div class="text">Building construction, the techniques and industry involved in the assembly and erection of structures</div>
                             </div>
                         </div>
@@ -397,7 +368,7 @@
 <section class="subscribe-section about-page bg-color-3">
     <div class="container">
         <div class="inner-box">
-            <figure class="icon-box"><img src="images/icons/paper-plane.png" alt=""></figure>
+            <figure class="icon-box"><img src="images/icons/paper-plane.png" alt="MEDIA_OBJECT"></figure>
             <div class="content-box">
                 <h2>Get Started</h2>
                 <div class="text">Quickly, drop us your email and we'll get in touch with you.</div>
@@ -421,7 +392,7 @@
                 <div class="copyright pull-left"><a href="https://api.whatsapp.com/send?phone=263716357775">Nova Media</a></div>
                 <ul class="footer-social pull-right">
                     <!-- <li><a href="#"><i class="fab fa-twitter"></i></a></li> -->
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.facebook.com/Redsea-boreholes-zw-104714385582686" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -470,5 +441,5 @@ var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s,
 
 </body><!-- End of .page_wrapper -->
 
-<!-- Acto/  13 Nov 2019 12:56:21 GMT -->
+
 </html>
