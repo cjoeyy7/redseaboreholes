@@ -1,8 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /css/
-Disallow: /js/
-Disallow: /fonts/
 Disallow: /acme-challenge/
 
 Sitemap: https://www.redseaboreholes.co.zw/sitemap.xml
