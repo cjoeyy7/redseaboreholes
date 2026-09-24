@@ -19413,6 +19413,7 @@ body.flyout-searchbar-active .wraper_flyout_search > .table > .table-cell .flyou
 
 .contact-section .contact-form-area .form-group input[type='text'],
 .contact-section .contact-form-area .form-group input[type='email'],
+.contact-section .contact-form-area .form-group input[type='tel'],
 .contact-section .contact-form-area .form-group textarea{
   position: relative;
   display: block;
@@ -19423,6 +19424,81 @@ body.flyout-searchbar-active .wraper_flyout_search > .table > .table-cell .flyou
   color: #0c0d24;
   padding: 10px 15px;
   transition: all 500ms ease;
+}
+
+.contact-section .contact-form-area .contact-form-modern{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 38px;
+  background: #fff;
+  border: 1px solid #e8eaee;
+  border-radius: 8px;
+  box-shadow: 0 14px 35px rgba(12, 13, 36, 0.08);
+}
+
+.contact-section .contact-form-area .contact-form-modern .form-group:not(:last-of-type){
+  margin-bottom: 18px;
+}
+
+.contact-section .contact-form-area .contact-form-modern .form-group input,
+.contact-section .contact-form-area .contact-form-modern .form-group textarea{
+  border-radius: 4px;
+  background: #fbfcfd;
+}
+
+.contact-section .contact-form-area .contact-form-modern .form-group input:focus,
+.contact-section .contact-form-area .contact-form-modern .form-group textarea:focus{
+  background: #fff;
+  border-color: #DF2F34;
+  box-shadow: 0 0 0 3px rgba(223, 47, 52, 0.12);
+  outline: none;
+}
+
+.contact-section .contact-form-area .contact-form-modern .form-group input:focus:invalid,
+.contact-section .contact-form-area .contact-form-modern .form-group textarea:focus:invalid,
+.contact-section .contact-form-area .contact-form-modern .form-group input:user-invalid,
+.contact-section .contact-form-area .contact-form-modern .form-group textarea:user-invalid{
+  border-color: #DF2F34;
+  box-shadow: 0 0 0 3px rgba(223, 47, 52, 0.12);
+}
+
+.contact-section .contact-form-area .contact-form-modern .form-group input:focus:valid,
+.contact-section .contact-form-area .contact-form-modern .form-group textarea:focus:valid,
+.contact-section .contact-form-area .contact-form-modern .form-group input:user-valid,
+.contact-section .contact-form-area .contact-form-modern .form-group textarea:user-valid{
+  border-color: #2d8a59;
+  box-shadow: 0 0 0 3px rgba(45, 138, 89, 0.12);
+}
+
+.contact-section .contact-form-area .contact-form-modern .form-group:nth-of-type(2),
+.contact-section .contact-form-area .contact-form-modern .form-group:nth-of-type(3){
+  display: inline-block;
+  width: calc(50% - 10px);
+  vertical-align: top;
+}
+
+.contact-section .contact-form-area .contact-form-modern .form-group:nth-of-type(3){
+  margin-left: 16px;
+}
+
+.contact-section .contact-form-area .contact-form-modern textarea{
+  min-height: 170px;
+}
+
+.contact-section .contact-form-area .contact-form-modern .message-btn{
+  margin-top: 6px;
+}
+
+.contact-section .contact-form-area .contact-form-modern button:disabled{
+  opacity: 0.65;
+  cursor: wait;
+}
+
+.contact-section .contact-form-area #contact-form-status{
+  min-height: 24px;
+  margin: 16px 0 0;
+  color: #3c3c49;
+  font-size: 14px;
 }
 
 .contact-section .contact-form-area .form-group input::-webkit-input-placeholder,
